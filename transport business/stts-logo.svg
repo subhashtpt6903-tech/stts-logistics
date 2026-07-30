@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 292 120" width="292" height="120" role="img" aria-label="STTS — Built for Delivery">
+  <defs>
+    <linearGradient id="sttsBlue" gradientUnits="userSpaceOnUse" x1="100" y1="14" x2="272" y2="80">
+      <stop offset="0" stop-color="#2D6CC4"/><stop offset="1" stop-color="#0F3D73"/>
+    </linearGradient>
+    <linearGradient id="sttsOrange" gradientUnits="userSpaceOnUse" x1="8" y1="96" x2="120" y2="20">
+      <stop offset="0" stop-color="#FFA726"/><stop offset="1" stop-color="#F97316"/>
+    </linearGradient>
+    <clipPath id="sttsGlobeClip"><circle cx="100" cy="42" r="26"/></clipPath>
+  </defs>
+
+  <!-- globe -->
+ <linearGradient id="sttsGold"
+                gradientUnits="userSpaceOnUse"
+                x1="74" y1="16"
+                x2="126" y2="68">
+    <stop offset="0%" stop-color="#FFF3B0"/>
+    <stop offset="25%" stop-color="#F9D976"/>
+    <stop offset="55%" stop-color="#D4AF37"/>
+    <stop offset="100%" stop-color="#B8860B"/>
+</linearGradient>
+
+  <!-- road: ribbon + centre line share one path -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M8 96C40 70 74 44 120 20" stroke="url(#sttsOrange)" stroke-width="15"/>
+    <path d="M8 96C40 70 74 44 120 20" stroke="#fff" stroke-width="2.8" stroke-dasharray="7 8"/>
+  </g>
+
+  <!-- wordmark -->
+  <g transform="translate(104 14) skewX(-10)" fill="none" stroke="url(#sttsBlue)"
+     stroke-width="13" stroke-linecap="butt" stroke-linejoin="miter">
+    <path d="M38 6.5H6.5V30h27V53.5H2"/>
+    <path d="M45 6.5h38M64 6.5V60"/>
+    <path d="M87 6.5h38M106 6.5V60"/>
+    <path d="M166 6.5h-31.5V30h27v23.5H130"/>
+  </g>
+
+  <path d="M110 84H255" stroke="url(#sttsOrange)" stroke-width="5" stroke-linecap="round"/>
+
+  <text x="96" y="107" fill="#F97316" font-family="'Poppins','Helvetica Neue',Arial,sans-serif"
+        font-size="11.5" font-weight="600" letter-spacing="3">BUILT FOR DELIVERY</text>
+</svg>
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="STTS">
+  <defs>
+    <linearGradient id="mkBg" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="64" y2="64">
+      <stop offset="0" stop-color="#2D6CC4"/><stop offset="1" stop-color="#0B2545"/>
+    </linearGradient>
+    <linearGradient id="mkOr" gradientUnits="userSpaceOnUse" x1="14" y1="56" x2="50" y2="52">
+      <stop offset="0" stop-color="#FFA726"/><stop offset="1" stop-color="#F97316"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#mkBg)"/>
+  <g transform="translate(23 12) scale(.63) skewX(-10)" fill="none" stroke="#fff"
+     stroke-width="13" stroke-linecap="butt" stroke-linejoin="miter">
+    <path d="M38 6.5H6.5V30h27V53.5H2"/>
+  </g>
+  <path d="M15 55.5H49" stroke="url(#mkOr)" stroke-width="4.6" stroke-linecap="round"/>
+</svg>
