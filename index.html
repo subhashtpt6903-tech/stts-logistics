@@ -443,7 +443,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
 <section class="quote" id="quote">
 
     <div class="section-title">
-        <h2>Request a Transport Quote</h2>
+        <h2>Request a Business Quote</h2>
         <p>
             Whether it's a single shipment or ongoing transportation, we're here to deliver efficient logistics solutions across India.
     </div>
@@ -455,37 +455,33 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     <input type="hidden" name="_next" value="https://subhashtpt6903-tech.github.io/stts-logistics/thank-you.html">
 
     <div class="input-group">
-        <input type="text" name="name" placeholder="Full Name" required>
-        <input type="text" name="company" placeholder="Company Name">
+         <input type="text" name="company" placeholder="Company Name*">
+        <input type="text" name="name" placeholder="Contact Person*" required>
     </div>
 
     <div class="input-group">
-        <input type="tel" name="phone" placeholder="Phone Number" required>
-        <input type="email" name="email" placeholder="Email Address" required>
+        <input type="tel" name="phone" placeholder="Mobile Number*" required>
+        <input type="email" name="email" placeholder="Work Email*" required>
     </div>
 
     <div class="input-group">
-        <input type="text" name="pickup" placeholder="Pickup Location" required>
-        <input type="text" name="delivery" placeholder="Delivery Location" required>
+        <input type="text" name="pickup" placeholder="Pickup Region" required>
+        <input type="text" name="delivery" placeholder="Delivery Region" required>
     </div>
 
     <div class="input-group">
-        <select name="vehicle" required>
-            <option value="">Select Vehicle</option>
-            <option>14 Ft Truck</option>
-            <option>17 Ft Truck</option>
-            <option>19 Ft Truck</option>
-            <option>20 Ft Truck</option>
-            <option>22 Ft Truck</option>
-            <option>32 Ft Trailer</option>
+        <select name="Shipments" required>
+            <option value="">Estimated Monthly Shipments</option>
+             <option>1–20 Shipments</option>
+                <option>21–50 Shipments</option>
+                <option>51–100 Shipments</option>
+                <option>100+ Shipments</option>
         </select>
 
-        <input type="text" name="goods" placeholder="Goods Type">
-    </div>
 
     <textarea name="message" placeholder="Describe your shipment..." rows="6"></textarea>
 
-    <button type="submit" class="quote-btn">Request a Quote</button>
+    <button type="submit" class="quote-btn">Request Business Quote</button>
 
 </form>
 </section>
